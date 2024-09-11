@@ -111,7 +111,7 @@ for contour in contours:
     if rectangle.any():
         status = 1
 ```
-- `cv2.contourArea`: Filters out small contours, ignoring objects smaller than a certain area (5000 pixels).
+- `cv2.contourArea`: Filters out small contours, ignoring objects smaller than a certain area (5000 pixels). The number is adjustable.
 - `cv2.boundingRect`: Draws a rectangle around the detected object. This method/function return coordinate and size.
 - `cv2.rectangle`: Highlights the moving object in a green rectangle.
 - If an object is detected, the status is set to 1, indicating motion.
